@@ -27,7 +27,7 @@ public class RadixSortJoeHuynh {public static void main(String[]args) {
             maxValue = input[i]; //gets the max value
         }
     }
-    int maxLoop = (int)Math.ceil(Math.log10(maxValue));
+    int maxLoop = (int)(Math.log10(maxValue)+1);
 
 
     System.out.println("------------------------------------------------------");
